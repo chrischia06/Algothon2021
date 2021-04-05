@@ -1,0 +1,5 @@
+
+`PredictionChallenge.ipynb` contains the code for the strategy. We try two approaches, in one we have *neural networks* directly predict the weight / action (a value between [-1, 1]) to take, i.e. whether to buy / sell the asset. We use the batch Sharpe ratio in this case, but with only 1 single output layer and no hidden layers, so the neural network is more similar to to linear regression. Another approach was simply to use Gradient Boosted Trees, specifically `lightgbm`. *Note: the winning team for this used a neural network as well, but implemented in Pytorch, multi-layer with ReLU activation and trained to maximise cumulative returns.*
+
+
+May requre downloading the data the organisers have provided ,[here](https://drive.google.com/drive/folders/180FaVThDIFtmrCZ2cGiYskvlyvyMv5Au), and adjusting the code in the notebook to account for your own path.

@@ -1,0 +1,5 @@
+
+`LongShort.ipynb` contains the code for the strategy. We train *neural networks* to predict the target weights, including the weight constraint of being market-neutral (the weights should sum to 0 and be constrained to [-1, 1]) using softmax activation. We use the batch mean returns - 0.5 * CVaR as a loss function, but with only 1 single output layer and no hidden layers, so the neural network is more similar to to multi-output regression. Another point to note is that the softmax activation might result in the weights being poorly scaled (closer to 0 as opposed to between -1, 1). *Note: the winning team for this used a neural network as well, but implemented in Pytorch, multi-layer with ReLU activation and trained to maximise cumulative returns.*
+
+
+May requre downloading the data the organisers have provided ,[here](https://drive.google.com/drive/folders/180FaVThDIFtmrCZ2cGiYskvlyvyMv5Au), and adjusting the code in the notebook to account for your own path.
