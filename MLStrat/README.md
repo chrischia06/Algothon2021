@@ -6,9 +6,13 @@ Joint work between [Sanjit Neelam](https://github.com/sanj909), and [Chris Chia]
 
 ## Running the script
 
-First, install all the required packages by running `python3 -m pip install requirements.txt`. A script version of the strategy is provided as a file `ml_strat.py` here [here](ml_strat.py). A Jupyter Notebook `MLStratChallenge-Final.ipynb` is also provided [here](MLStratChallenge-Final.ipynb), and an online version as a Google Colab notebook is available here: [https://drive.google.com/file/d/12fW0fXCSq7FMYfiaCoxUtUP5gYEudPZr/view?usp=sharing](https://drive.google.com/file/d/12fW0fXCSq7FMYfiaCoxUtUP5gYEudPZr/view?usp=sharing).
+First, install all the required packages by running `python3 -m pip install requirements.txt`. A script version of the strategy is provided as a file `ml_strat.py` here [here](ml_strat.py). A Jupyter Notebook `MLStratChallenge-Final.ipynb` is also provided [here](MLStratChallenge-Final.ipynb), and an online version as a Google Colab notebook is available here: [https://colab.research.google.com/drive/12fW0fXCSq7FMYfiaCoxUtUP5gYEudPZr](https://colab.research.google.com/drive/12fW0fXCSq7FMYfiaCoxUtUP5gYEudPZr).
 
-The Jupyter Notebook / Google Colab versions are more interactive; they contain relevant visualisations and discussion as to the strategy and model. The script produces an output file `test_preds.csv`, but to obtain the relevant predictions for your desired test period, some edits to the script will be required.
+The Jupyter Notebook / Google Colab versions are more interactive; they contain relevant visualisations and discussion as to the strategy and model. A sample of the results can be seen in either `MLStratChallenge-Final.html` or `MLStratChallenge-Final.pdf`. 
+
+The script produces an output file `test_preds.csv`, but to obtain the relevant predictions for your desired test period, some edits to the script will be required.
+
+
 
 
 ## Data
